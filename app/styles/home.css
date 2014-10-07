@@ -1,0 +1,5 @@
+div.container div.jumbotron p.lead img {
+    width: 200px;
+    display: inline-block;
+    float: left;
+}

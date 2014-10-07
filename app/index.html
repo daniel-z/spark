@@ -13,6 +13,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
     <!-- endbuild -->
   </head>
   <body ng-app="sparkApp">
@@ -26,19 +27,19 @@
         <ul class="nav nav-pills pull-right">
           <li class="active"><a ng-href="#">Home</a></li>
           <!-- //angularfire -->
-          <li><a ng-href="#/chat">chat</a></li>
+          <!-- <li><a ng-href="#/chat">chat</a></li> -->
           <li>
             <a ng-hide-auth="" href="#/login">log in</a>
             <a ng-show-auth="" href="#/account">account</a>
           </li>
           </ul>
-        <h3 class="text-muted">spark</h3>
+        <h3 class="text-muted">Sistema Spark de Legion Automotriz</h3>
       </div>
 
       <div ng-view=""></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p>Yo <span class="glyphicon glyphicon-heart"></span> Legion Automotriz</p>
       </div>
     </div>
 
