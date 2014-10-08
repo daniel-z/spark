@@ -16,6 +16,20 @@ body {
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+.header img.logo {
+  width: 150px;
+  display: inline-block;
+  float: left;
+  margin-top: -45px;
+  margin-right: 20px;
+}
+.header h3 span {
+  font-size: 17px;
+  position: relative;
+  top: -2px;
+  color: #666;
+}
+
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;

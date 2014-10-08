@@ -1,13 +1,18 @@
-<div class="jumbotron">
-  <h1>¿Como va mi Auto?</h1>
-  <p class="lead">
-    <img src="images/logo.png" alt="Legion Automotriz"><br>
-    Introduce tu llave.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+<div class="page main" ng-controller="MainCtrl">
+  <div class="panel panel-default">
+    <div class="panel-heading">¿Como va mi Auto?</div>
+    <div class="panel-body">
+        <p> Verifica el estatus de tu auto y mira las fotos del proceso! </p>
+        <form name="work-order-status" ng-submit="getOrderData(key)">
+          <div class="input-group">
+            <input type="text" name="key" ng-model="key" required class="form-control" placeholder="Introduce tu llave.">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">arranca!</button>
+            </span>
+          </div>
+        </form>
+    </div>
+  </div>
 
-<div class="row marketing">
-  <h4>Spark</h4>
-  <p> No te preocupes por tu auto, esta en manos seguras. Permitenos llevar a ti el estado de tu automovil con actualizaciones diarias.</p>
+
 </div>
