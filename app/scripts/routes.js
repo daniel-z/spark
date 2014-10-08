@@ -86,6 +86,10 @@ angular.module('sparkApp')
         //   templateUrl: 'views/chat.html',
         //   controller: 'ChatCtrl'
         // })
+        .when('/wo-status', {
+          templateUrl: 'views/wo-status.html',
+          controller: 'WoStatusCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });
